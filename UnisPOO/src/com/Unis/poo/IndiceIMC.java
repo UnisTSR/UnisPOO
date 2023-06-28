@@ -22,27 +22,27 @@ public class IndiceIMC {
 				 status = ("Abaixo do Peso");
 			 }else
 				 
-				 if(IMC>18.49 && IMC < 24.50) {
+				 if(IMC>18.50 && IMC < 24.99) {
 					 
 					 status = ("Peso normal");
 				 }else
 					 
-					 if (IMC > 24.99 && IMC < 30) {
+					 if (IMC > 25.00 && IMC < 29.99) {
 						 
 						 status = ("Acima do Peso");
 					 }else
 						 
-						 if(IMC > 29.99 && IMC < 35) {
+						 if(IMC > 30 && IMC < 34.99) {
 							 
 							 status = ("Obesidade 1");
 						 }else
 							 
-							 if(IMC > 34.99 && IMC < 40) {
+							 if(IMC > 35 && IMC < 39.99) {
 								 
 								 status = ("Obesidade 2 (severa)");
 							 }else
 								 
-								 if(IMC>40) {
+								 if(IMC>39.99) {
 									 
 									 status = ("Obesidade 3(mórbida)");
 								 }
